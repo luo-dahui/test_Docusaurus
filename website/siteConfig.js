@@ -38,13 +38,14 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {doc: 'overall_overview', label: 'Docs'},
+    {doc: 'overall_overview', label: 'API'},
     {page: 'help', label: 'Help'},
     //{blog: true, label: 'Blog'},
 	//{ search: true },
 	{ href: 'https://github.com/luo-dahui/docusaurus-docs-Zh_CN', label: 'GitHub' },
 	{ languages: true },
+  { search: true },
   ],
 
   // If you have users set above, you add it here:
@@ -57,8 +58,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#8137af',
-    secondaryColor: '#5a267a',
+    primaryColor: '#949969',
+    secondaryColor: '#676b49',
   },
 
   /* Custom fonts for website */
